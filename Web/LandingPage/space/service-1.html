@@ -1,0 +1,617 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Service | Space</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+		<!-- ========================= CSS here ========================= -->
+		<link rel="stylesheet" href="assets/css/bootstrap-5.0.0-beta1.min.css">
+        <link rel="stylesheet" href="assets/css/LineIcons.2.0.css">
+		<link rel="stylesheet" href="assets/css/animate.css">
+		<link rel="stylesheet" href="assets/css/tiny-slider.css">
+		<link rel="stylesheet" href="assets/css/glightbox.min.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- ========================= preloader start ========================= -->
+        <div class="preloader">
+            <div class="loader">
+                <div class="ytp-spinner">
+                    <div class="ytp-spinner-container">
+                        <div class="ytp-spinner-rotator">
+                            <div class="ytp-spinner-left">
+                                <div class="ytp-spinner-circle"></div>
+                            </div>
+                            <div class="ytp-spinner-right">
+                                <div class="ytp-spinner-circle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- preloader end -->
+
+        <!-- ========================= header start ========================= -->
+        <header class="header bg-white navbar-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="assets/img/logo/logo.svg" alt="Logo">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a class="page-scroll dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse"
+                                        data-bs-target="#submenu-1-1" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">Home</a>
+                                        <ul class="sub-menu collapse" id="submenu-1-1">
+                                            <li class="nav-item"><a href="index.html">Home Style 1</a></li>
+                                            <li class="nav-item"><a href="#0">Home Style 2</a></li>
+                                            <li class="nav-item"><a href="#0">Home Style 3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="about.html">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll dd-menu active collapsed" href="javascript:void(0)" data-bs-toggle="collapse"
+                                        data-bs-target="#submenu-1-2" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">Service</a>
+
+                                        <ul class="sub-menu collapse" id="submenu-1-2">
+                                            <li class="nav-item active"><a href="service-1.html">Service Style 1</a></li>
+                                            <li class="nav-item"><a href="#0">Service Style 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse"
+                                        data-bs-target="#submenu-1-3" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">Pages</a>
+
+                                        <ul class="sub-menu collapse" id="submenu-1-3">
+                                            <li class="nav-item"><a href="about.html">About Us</a></li>
+                                            <li class="nav-item"><a href="#0">Team Members</a></li>
+                                            <li class="nav-item"><a href="#0">Portfolio</a></li>
+                                            <li class="nav-item"><a href="#0">Portfolio Single</a></li>
+                                            <li class="nav-item"><a href="#0">Counter</a></li>
+                                            <li class="nav-item"><a href="#0">Accordion</a></li>
+                                            <li class="nav-item"><a href="#0">Alerts</a></li>
+                                            <li class="nav-item"><a href="#0">Map</a></li>
+                                            <li class="nav-item"><a href="404.html">404</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse"
+                                        data-bs-target="#submenu-1-4" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">Blog</a>
+
+                                        <ul class="sub-menu collapse" id="submenu-1-4">
+                                            <li class="nav-item"><a href="#0">Blog Style 1</a></li>
+                                            <li class="nav-item"><a href="#0">Blog Style 2</a></li>
+                                            <li class="nav-item"><a href="#0">Blog Single</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                                <form action="#" class="search-form">
+                                    <input type="text" placeholder="Search">
+                                    <button type="submit"><i class="lni lni-search-alt"></i></button>
+                                </form>
+                            </div> <!-- navbar collapse -->
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        
+        </header>
+        <!-- ========================= header end ========================= -->
+
+        <!-- ========================= page-banner-section start ========================= -->
+        <section class="page-banner-section pt-75 pb-75 img-bg" style="background-image: url('assets/img/bg/common-bg.svg')">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="banner-content">
+                            <h2 class="text-white">Our Best Services</h2>
+                            <div class="page-breadcrumb">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item" aria-current="page"><a href="javascript:void(0)">Home</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Service</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= page-banner-section end ========================= -->
+
+        <!-- ========================= service-section start ========================= -->
+        <section id="service" class="service-section pt-130 pb-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-7 col-md-9 mx-auto">
+                        <div class="section-title text-center mb-55">
+                            <span class="wow fadeInDown" data-wow-delay=".2s">Services</span>
+                            <h2 class="wow fadeInUp" data-wow-delay=".4s">Our Best Services</h2>
+                            <p class="wow fadeInUp" data-wow-delay=".6s">At vero eos et accusamus et iusto odio
+                                dignissimos ducimus quiblanditiis praesentium</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-box box-style">
+                            <div class="service-icon box-icon-style">
+                                <i class="lni lni-capsule"></i>
+                            </div>
+                            <div class="box-content-style service-content">
+                                <h4>Refreshing Design</h4>
+                                <p>Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt
+                                    labor dolore magna.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-box box-style">
+                            <div class="service-icon box-icon-style">
+                                <i class="lni lni-bootstrap"></i>
+                            </div>
+                            <div class="box-content-style service-content">
+                                <h4>Solid Bootstrap 5</h4>
+                                <p>Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt
+                                    labor dolore magna.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-box box-style">
+                            <div class="service-icon box-icon-style">
+                                <i class="lni lni-shortcode"></i>
+                            </div>
+                            <div class="box-content-style service-content">
+                                <h4>100+ Components</h4>
+                                <p>Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt
+                                    labor dolore magna.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-box box-style">
+                            <div class="service-icon box-icon-style">
+                                <i class="lni lni-dashboard"></i>
+                            </div>
+                            <div class="box-content-style service-content">
+                                <h4>Speed Optimized</h4>
+                                <p>Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt
+                                    labor dolore magna.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-box box-style">
+                            <div class="service-icon box-icon-style">
+                                <i class="lni lni-layers"></i>
+                            </div>
+                            <div class="box-content-style service-content">
+                                <h4>Fully Customizable</h4>
+                                <p>Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt
+                                    labor dolore magna.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-box box-style">
+                            <div class="service-icon box-icon-style">
+                                <i class="lni lni-reload"></i>
+                            </div>
+                            <div class="box-content-style service-content">
+                                <h4>Regular Updates</h4>
+                                <p>Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt
+                                    labor dolore magna.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= service-section end ========================= -->
+
+        <!-- ========================= carousel-section end ========================= -->
+        <section class="carousel-section-wrapper">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-section carousel-item active clip-bg pt-225 pb-200 img-bg">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-8 col-lg-10 mx-auto">
+                                    <div class="carousel-content text-center">
+                                        <div class="section-title">
+                                            <h2 class="text-white">Create Stunning Websites in Easier
+                                                and Effecient Way!</h2>
+                                            <p class="text-white">We Crafted an awesome design library that is
+                                                robust and intuitive to use. No matter you're building a business
+                                                presentation
+                                                websit or a complex web application our design blocks can easily be
+                                                adapted for your needs.</p>
+                                        </div>
+                                        <a href="javascript:void(0)" class="theme-btn border-btn">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-section carousel-item clip-bg pt-225 pb-200 img-bg">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-8 col-lg-10 mx-auto">
+                                    <div class="carousel-content text-center">
+                                        <div class="section-title">
+                                            <h2 class="text-white">We Crafted an awesome design library that is
+                                                robust and intuitive to use.</h2>
+                                            <p class="text-white">Create Stunning Websites in Easier
+                                                and Effecient Way! No matter you're building a business
+                                                presentation websit or a complex web application our design blocks can easily be
+                                                adapted for your needs.</p>
+                                        </div>
+                                        <a href="javascript:void(0)" class="theme-btn border-btn">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control carousel-control-prev" href="#carouselExampleCaptions" role="button"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true">
+                        <i class="lni lni-arrow-left"></i>
+                    </span>
+                </a>
+                <a class="carousel-control carousel-control-next" href="#carouselExampleCaptions" role="button"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true">
+                        <i class="lni lni-arrow-right"></i>
+                    </span>
+                </a>
+            </div>
+        </section>
+        <!-- ========================= carousel-section end ========================= -->
+
+        <!-- ========================= pricing-section start ========================= -->
+        <section id="pricing" class="pricing-section pt-140 pb-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-7 col-md-10 mx-auto">
+                        <div class="section-title text-center mb-60">
+                            <span class="wow fadeInDown" data-wow-delay=".2s">Price</span>
+                            <h2 class="wow fadeInUp" data-wow-delay=".4s">Our Pricing Plan</h2>
+                            <p class="wow fadeInUp" data-wow-delay=".6s">At vero eos et accusamus et iusto odio
+                                dignissimos ducimus quiblanditiis praesentium</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="pricing-btn text-center wow fadeInUp" data-wow-delay=".3s">
+                            <ul class="nav justify-content-center mb-90" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="pills-1-tab" data-bs-toggle="pill" href="#pills-1" role="tab"
+                                        aria-controls="pills-1" aria-selected="true">Monthly</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="pills-2-tab" data-bs-toggle="pill" href="#pills-2" role="tab"
+                                        aria-controls="pills-2" aria-selected="false">Yearly</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="single-pricing mb-50">
+                                    <h4>Basic</h4>
+                                    <h3>$15.00</h3>
+                                    <ul>
+                                        <li>10 Users</li>
+                                        <li>Minimal Report</li>
+                                        <li>100MB Data Storage</li>
+                                        <li>No Support</li>
+                                        <li>Single Agent</li>
+                                    </ul>
+                                    <a href="javascript:void(0)" class="theme-btn border-btn">Purchase Now</a>
+                                    <p>No Extra Hidden Charge</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="single-pricing active mb-50">
+                                    <h4>Standard</h4>
+                                    <h3>$25.99</h3>
+                                    <ul>
+                                        <li>30 Users</li>
+                                        <li>Minimal Report</li>
+                                        <li>1GB Data Storage</li>
+                                        <li>7/24 Support</li>
+                                        <li>Multiple Agents</li>
+                                    </ul>
+                                    <a href="javascript:void(0)" class="theme-btn">Purchase Now</a>
+                                    <p>No Extra Hidden Charge</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="single-pricing mb-50">
+                                    <h4>Premium</h4>
+                                    <h3>$220.00</h3>
+                                    <ul>
+                                        <li>Unlimited Users</li>
+                                        <li>Full Report</li>
+                                        <li>Unlimited Data Storage</li>
+                                        <li>7/24 Support</li>
+                                        <li>Multiple Agents</li>
+                                    </ul>
+                                    <a href="javascript:void(0)" class="theme-btn border-btn">Purchase Now</a>
+                                    <p>No Extra Hidden Charge</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="single-pricing mb-50">
+                                    <h4>Basic</h4>
+                                    <h3>$15.00</h3>
+                                    <ul>
+                                        <li>10 Users</li>
+                                        <li>Minimal Report</li>
+                                        <li>100MB Data Storage</li>
+                                        <li>No Support</li>
+                                        <li>Single Agent</li>
+                                    </ul>
+                                    <a href="javascript:void(0)" class="theme-btn border-btn">Purchase Now</a>
+                                    <p>No Extra Hidden Charge</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="single-pricing active mb-50">
+                                    <h4>Standard</h4>
+                                    <h3>$25.99</h3>
+                                    <ul>
+                                        <li>30 Users</li>
+                                        <li>Minimal Report</li>
+                                        <li>1GB Data Storage</li>
+                                        <li>7/24 Support</li>
+                                        <li>Multiple Agents</li>
+                                    </ul>
+                                    <a href="javascript:void(0)" class="theme-btn">Purchase Now</a>
+                                    <p>No Extra Hidden Charge</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="single-pricing mb-50">
+                                    <h4>Premium</h4>
+                                    <h3>$220.00</h3>
+                                    <ul>
+                                        <li>Unlimited Users</li>
+                                        <li>Full Report</li>
+                                        <li>Unlimited Data Storage</li>
+                                        <li>7/24 Support</li>
+                                        <li>Multiple Agents</li>
+                                    </ul>
+                                    <a href="javascript:void(0)" class="theme-btn border-btn">Purchase Now</a>
+                                    <p>No Extra Hidden Charge</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- ========================= pricing-section end ========================= -->
+
+
+        <!-- ========================= contact-section start ========================= -->
+        <section id="contact" class="contact-section cta-bg img-bg pt-110 pb-100" style="background-image: url('assets/img/bg/cta-bg.jpg');">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-5 col-lg-7">
+                        <div class="section-title mb-60">
+                            <span class="text-white wow fadeInDown" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">Space Free Lite</span>
+                            <h2 class="text-white wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">You are using free lite version of Space</h2>
+                            <p class="text-white wow fadeInUp" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">Please, purchase full version of the template to get all pages, features and commercial license</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-5">
+                        <div class="contact-btn text-start text-lg-end">
+                            <a href="https://rebrand.ly/space-gg" rel="nofollow" class="theme-btn">Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= contact-section end ========================= -->
+
+
+
+        <!-- ========================= client-logo-section start ========================= -->
+        <section class="client-logo-section pt-70 pb-130">
+            <div class="container">
+                <div class="client-logo-wrapper">
+                    <div class="client-logo-carousel d-flex align-items-center justify-content-between">
+                        <div class="client-logo">
+                            <img src="assets/img/client-logo/uideck-logo.svg" alt="">
+                        </div>
+                        <div class="client-logo">
+                            <img src="assets/img/client-logo/pagebulb-logo.svg" alt="">
+                        </div>
+                        <div class="client-logo">
+                            <img src="assets/img/client-logo/lineicons-logo.svg" alt="">
+                        </div>
+                        <div class="client-logo">
+                            <img src="assets/img/client-logo/graygrids-logo.svg" alt="">
+                        </div>
+                        <div class="client-logo">
+                            <img src="assets/img/client-logo/lineicons-logo.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= client-logo-section end ========================= -->
+
+        <!-- ========================= subscribe-section start ========================= -->
+        <section class="subscribe-section pt-70 pb-70 img-bg" style="background-image: url('assets/img/bg/common-bg.svg')">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="section-title mb-30">
+                            <span class="text-white wow fadeInDown" data-wow-delay=".2s">Subscribe</span>
+                            <h2 class="text-white mb-40 wow fadeInUp" data-wow-delay=".4s">Subscribe Our Newsletter</h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <form action="#" class="subscribe-form wow fadeInRight" data-wow-delay=".4s">
+                            <input type="text" name="subs-email" id="subs-email" placeholder="Your Email">
+                            <button type="submit"><i class="lni lni-telegram-original"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= subscribe-section end ========================= -->
+
+        <!-- ========================= footer start ========================= -->
+        <footer class="footer pt-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="footer-widget mb-60 wow fadeInLeft" data-wow-delay=".2s">
+                            <a href="index.html" class="logo mb-30"><img src="assets/img/logo/logo.svg" alt="logo"></a>
+                            <p class="mb-30 footer-desc">We Crafted an awesome desig library that is robust and intuitive to use. No matter you're building a business presentation websit.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6">
+                        <div class="footer-widget mb-60 wow fadeInUp" data-wow-delay=".4s">
+                            <h4>Quick Link</h4>
+                            <ul class="footer-links">
+                                <li>
+                                    <a href="javascript:void(0)">Home</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">Service</a>
+                                </li> 
+                                <li>
+                                    <a href="javascript:void(0)">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <div class="footer-widget mb-60 wow fadeInUp" data-wow-delay=".6s">
+                            <h4>Service</h4>
+                            <ul class="footer-links">
+                                <li>
+                                    <a href="javascript:void(0)">Marketing</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">Branding</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">Web Design</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">Graphics Design</a>
+                                </li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <div class="footer-widget mb-60 wow fadeInRight" data-wow-delay=".8s">
+                            <h4>Contact</h4>
+                            <ul class="footer-contact">
+                                <li>
+                                    <p>+00983467367234</p>
+                                </li>
+                                <li>
+                                    <p>yourmail@gmail.com</p>
+                                </li>
+                                <li>
+                                    <p>United State Of America
+                                    *12 Street House</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="copyright-area">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                             <div class="footer-social-links">
+                                <ul class="d-flex">
+                                    <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-twitter-filled"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-instagram-filled"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="wow fadeInUp" data-wow-delay=".3s">Template Designed by <a href="https://GrayGrids.com" rel="nofollow">GrayGrids</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- ========================= footer end ========================= -->
+
+
+        <!-- ========================= scroll-top ========================= -->
+        <a href="#" class="scroll-top">
+            <i class="lni lni-arrow-up"></i>
+        </a>
+        
+		<!-- ========================= JS here ========================= -->
+		<script src="assets/js/bootstrap.bundle-5.0.0-beta1.min.js"></script>
+		<script src="assets/js/contact-form.js"></script>
+        <script src="assets/js/count-up.min.js"></script>
+        <script src="assets/js/tiny-slider.js"></script>
+        <script src="assets/js/isotope.min.js"></script>
+        <script src="assets/js/glightbox.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/imagesloaded.min.js"></script>
+		<script src="assets/js/main.js"></script>
+    </body>
+</html>
